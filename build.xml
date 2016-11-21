@@ -2,7 +2,7 @@
 <project name= "Github_test" default= "message1">
 	<property file="build.properties"/>	
 	<target name="message1" depends="message2,message3">
-	<echo>Message 1 : Hello world : ${ipaddress}</echo>
+	<echo>Message 1 : Hello world : </echo>
 	</target>
 	<target name="message2">
 	<echo>Message 2 : Hello world : ${ant.version}</echo>
